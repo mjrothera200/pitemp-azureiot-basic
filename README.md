@@ -127,6 +127,12 @@ python3 iot-temp.py
 az login
 ```
 
+There is an IoT extension you need to add to the Azure CLI
+
+```console
+az extension add --name azure-cli-iot-ext
+```
+
 3.  Monitor the events
 
 ```console
